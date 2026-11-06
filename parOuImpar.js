@@ -29,13 +29,13 @@ if(jogador == 'par') {
     if(resultado == 0) {
         console.log(`\nJogador Par X Máquina Impar`)
         console.log(`${soma}`)
-        console.log(`Jogador venceu! 1`)
+        console.log(`Jogador venceu! `)
     }
 
     if(resultado != 0) {
         console.log(`\nJogador Par X Máquina Impar`)
         console.log(`${soma}`)
-        console.log(`Máquina venceu! 2`)
+        console.log(`Máquina venceu!`)
     }
 }
 
@@ -43,12 +43,12 @@ if(jogador == 'impar') {
     if(resultado == 0) {
         console.log(`\nJogador Impar X Máquina Par`)
         console.log(`${soma}`)
-        console.log(`Máquina venceu! 4`)
+        console.log(`Máquina venceu!`)
     }
 
     if(resultado != 0) {
         console.log(`\nJogador Impar X Máquina Par`)
         console.log(`${soma}`)
-        console.log(`Jogador venceu! 4`)
+        console.log(`Jogador venceu!`)
     }
 }
